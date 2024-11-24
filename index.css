@@ -1,0 +1,119 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: url(/learning-git/images/background-adare-restaurant.jpg);
+    background-color: rgb(34, 33, 33);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+header
+{
+    text-align: center;
+    transition: opacity,0.5s;
+}
+header:hover
+{
+   opacity: 0.5;
+}
+
+.container
+{
+   
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+   
+    
+}
+ main
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: beige;
+   text-align: center;
+}
+
+h1
+
+{   
+    
+    
+    color: white;
+    text-shadow:  2px 2px 15px #000000;
+    margin-top: 60px;
+    font-size: 85px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    font-style: normal;
+    
+  
+    
+}
+
+main p
+{
+  font-size: 20px;  
+  padding-left: 15%;
+  padding-right:15%;
+}
+main a 
+{
+    color: skyblue;
+}
+
+nav
+{
+   margin-top: 25px;
+   text-align: center;
+   background-color: rgba(128, 128, 128, 0.251);
+   height: 35px;
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 10px;
+   box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.44);
+ 
+  
+}
+
+nav a
+{
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+    font-size: 20px;
+    font-style: bold;
+    
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.map
+{
+  margin-top: 15px;
+}
+
+footer
+{
+    background-color: rgb(34, 33, 33);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-top: 35px;
+   
+}
+footer p
+{
+    text-align: center;
+    color: aliceblue;
+}
