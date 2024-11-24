@@ -1,2 +1,2 @@
 # learning-git
-made to learn git 
+made to learn git and github
