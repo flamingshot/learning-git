@@ -7,7 +7,7 @@ body
 {
     background-image: url(/learning-git/images/background-adare-restaurant.jpg);
     background-color: rgb(34, 33, 33);
-    background-size:cover;
+    background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
    
