@@ -8,7 +8,9 @@ body
     background-image: url(/learning-git/images/background-adare-restaurant.jpg);
     background-color: rgb(34, 33, 33);
     background-repeat:no-repeat;
-   
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
     background-size:cover;
     background-position:center;
 }
@@ -27,8 +29,7 @@ header:hover
    
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-
+    width: 1024px;
    
     
 }
@@ -118,8 +119,4 @@ footer p
 {
     
     color: aliceblue;
-}
-#map
-{
-    text-align: center;
 }
